@@ -1,0 +1,28 @@
+
+---
+title: "CO2 Emissions Report"
+author: "Ahmed Abdelrahman"
+format: html
+---
+
+::: {.panel-tabset}
+
+## Table
+
+```{python}
+show(table_df)
+```
+
+## Chart
+
+```{python}
+fig_chart.show()
+```
+
+## Map
+
+```{python}
+fig_map.show()
+```
+
+:::
